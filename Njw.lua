@@ -20,18 +20,7 @@ Window:AddMinimizeButton({
     }
 })
 
-local SetTab = Window:MakeTab({"Setting", "settings"})
 local MainTab = Window:MakeTab({"Main", "home"})
-local ItemTab = Window:MakeTab({"Quest & Item", "swords"})
-local SeaTab = Window:MakeTab({"Sea event", "waves"})
-local FruitTab = Window:MakeTab({"Fruit & Raid", "apple"})
-local StatTab = Window:MakeTab({"Stats", "plus"})
-local PlayerTab = Window:MakeTab({"Player", "user"})
-local RaceTab = Window:MakeTab({"Race", "user-plus"})
-local MirageTab = Window:MakeTab({"Mirage", "tree-palm"})
-local StatusTab = Window:MakeTab({"Status", "scroll"})
-local ShopTab = Window:MakeTab({"Shop", "shopping-cart"})
-local MiscTab = Window:MakeTab({"Misc", "ellipsis"})
 
 Window:SelectTab(MainTab)
 
